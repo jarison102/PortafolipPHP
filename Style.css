@@ -1,0 +1,9 @@
+#Column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Column input[type="submit"] {
+    margin-top: 10px;
+}
