@@ -10,8 +10,12 @@ if ($_POST) {
     $Fecha = $_POST['date'];
     $Correo = $_POST['Correo'];
     $Salario = $_POST['Salario'];
+    $Idioma = $_POST['Idioma'];
+    $ValorA = $_POST ['ValorA'];
+    $ValorB = $_POST ['ValorB'];
 
-    print("Mi Nombre es " . $Nombre . " y mi edad es " . $Edad . ". Trabajo en " . $Trabajo . ". Soy del país " . $Pais . ". Manejo estos lenguajes: " . $Lenguajes . ". Soy " . $EstadoCivil . ". Fecha de registro: " . $Fecha . ". Mi correo es " . $Correo . ". Mi Salario es ");
+    print($ValorA + $ValorB);
+    print("Mi Nombre es " . $Nombre . " y mi edad es " . $Edad . ". Trabajo en " . $Trabajo . ". Soy del país " . $Pais . ". Manejo estos lenguajes: " . $Lenguajes . ". Soy " . $EstadoCivil . ". Fecha de registro: " . $Fecha . ". Mi correo es " . $Correo . ". Mi Salario es " );
 
     switch ($Salario) {
         case "1":
@@ -33,5 +37,15 @@ if ($_POST) {
             print("Sin salario seleccionado");
             break;
     }
+    switch ($Idioma){
+        case 1:
+            print("Ingles");
+            break;
+        case 2 :
+            print("Español");
+            break;
+    }
+
+
 }
 ?>
