@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <option value='Stived'>Casanare</option>
         <option value='Stived'>Cauca</option>";
 
-    }else if ($Nombre === "Fabian"){
+    }else if ($Nombre === "Daivison"){
         echo "<option value='Fabian'>Amazonas</option>
         <option value='Fabian'>Antioquia</option>
         <option value='Fabian'>Arauca</option>
