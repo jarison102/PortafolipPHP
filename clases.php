@@ -96,10 +96,15 @@ class Calculadora {
         return $this->resultado;
     }
 }
+
 $calculadora = new Calculadora();  // Crear una instancia de la clase Calculadora
 $calculadora->sumar(5, 5);         // Llamar al método sumar con los valores 5 y 5
 $resultado = $calculadora->obtenerResultado();  // Obtener el resultado de la suma
 echo $resultado;  // Mostrar el resultado en pantalla
+
+
+
+
 
 
 ?>
